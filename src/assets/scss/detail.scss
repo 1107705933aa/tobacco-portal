@@ -1,0 +1,174 @@
+.bodybg {
+  background: url("../assets/image/bg.jpg");
+
+  .dqwz {
+    height: 48px;
+    line-height: 48px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 25px;
+
+    img {
+      padding-right: 5px;
+    }
+
+    a {
+      color: #8d8d8d;
+    }
+  }
+
+  .inContent {
+    background: #fff;
+
+    .listTlbg {
+      display: flex;
+    }
+
+    .tyContent {
+      h1 {
+        text-align: center;
+        line-height: 50px;
+        padding: 40px 30px 20px;
+        font-size: 30px;
+        color: #565656;
+        font-weight: normal;
+      }
+
+      .conXxly {
+        text-align: center;
+        position: relative;
+        border-bottom: 1px solid #ececec;
+        line-height: 50px;
+        margin: 0 30px;
+        color: #9a9a9a;
+        font-size: 14px;
+
+        .conZhDy {
+          position: absolute;
+          right: 0;
+          top: 3px;
+
+          span {
+            margin: 0 4px;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .tyContentMain {
+        padding: 20px 50px;
+
+        p {
+          margin: 10px 0;
+        }
+      }
+
+      .ldConRMain {
+        color: #626262;
+        line-height: 36px;
+        text-align: justify;
+      }
+
+      // 分享
+      .contentBotshare {
+        border-top: 1px solid #ececec;
+        margin: 0 30px;
+        text-align: center;
+        line-height: 47px;
+        color: #6b6b6b;
+        padding: 10px 0 25px;
+
+        #share {
+          float: right;
+
+          b {
+            vertical-align: super;
+            font-weight: normal;
+          }
+
+          a {
+            background: #c9c9c9;
+            display: inline-block;
+            cursor: pointer;
+            border-radius: 36px;
+            margin: 0 4px 0 0;
+            position: relative;
+
+            i {
+              width: 36px;
+              height: 36px;
+              display: block;
+              -webkit-transition: 0.4s all;
+              -moz-transition: 0.4s all;
+              -ms-transition: 0.4s all;
+              transition: 0.4s all;
+            }
+
+            #share-qrcode {
+              border: 1px solid #ddd;
+              width: 140px;
+              padding: 14px;
+              position: absolute;
+              display: none;
+              z-index: 99;
+              top: 50px;
+              left: -10px;
+              background: #fff;
+              border-radius: 3px;
+
+              em {
+                margin-top: -31px;
+                color: #ddd;
+                font-style: normal;
+              }
+
+              span {
+                margin-top: -14px;
+                color: white;
+              }
+
+              h3 {
+                font-size: 14px;
+                line-height: 40px;
+              }
+            }
+          }
+
+          #wechat {
+            i {
+              background: url(../assets/image/ico_share_20200422.png) no-repeat -25px center;
+            }
+
+            i:hover {
+              -webkit-transform: rotate(360deg);
+              -moz-transform: rotate(360deg);
+              -ms-transform: rotate(360deg);
+              transform: rotate(360deg);
+            }
+          }
+
+          #wechat:hover {
+            background: #1fbc7d;
+          }
+
+          #weibo {
+            i {
+              background: url(../assets/image/ico_share_20200422.png) no-repeat -60px center;
+            }
+
+            i:hover {
+              -webkit-transform: rotate(360deg);
+              -moz-transform: rotate(360deg);
+              -ms-transform: rotate(360deg);
+              transform: rotate(360deg);
+            }
+          }
+
+          #weibo:hover {
+            background: #e96157;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,314 @@
+html,
+body {
+  height: 100%;
+}
+
+.content {
+  height: 100%;
+}
+
+.backtop {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+#gateway-container {
+  .inTyList {
+    display: block;
+    height: 330px;
+    overflow-y: scroll;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+    /* Chrome Safari */
+  }
+
+  // 中部
+  .bodybg {
+    background: url(../assets/image/bg.jpg);
+
+    .inContent {
+      background: #fff;
+
+      // 头条
+      .intopNews {
+        padding: 25px 0 0;
+        overflow: hidden;
+
+        .inTopNewsTit {
+          margin: 35px 0 0;
+
+          a {
+            display: block;
+            background: url(../assets/image/tt.jpg) no-repeat;
+            width: 22px;
+            height: 94px;
+            color: #fff;
+
+            padding: 10px 10px 0;
+            line-height: 40px;
+            font-size: 26px;
+            text-indent: -999px;
+            cursor: pointer;
+          }
+        }
+
+        .inTopNewsRight {
+          width: 1138px;
+          text-align: center;
+
+          dt {
+            line-height: 60px;
+            line-height: 36px;
+            padding: 12px 0;
+
+            a {
+              color: #c61f1f;
+              font-size: 30px;
+              font-weight: bold;
+            }
+          }
+
+          dd {
+            color: #595959;
+            padding-bottom: 25px;
+
+            a.more {
+              cursor: pointer;
+              color: #5188b3;
+            }
+          }
+
+          .inTopImg {
+            line-height: 40px;
+            background: #0ea5ff;
+            text-align: center;
+            margin: 0 30px;
+            padding: 10px;
+
+            a {
+              color: #fff;
+              font-size: 28px;
+              display: block;
+              color: #fb2e2e;
+            }
+          }
+        }
+      }
+
+      // 轮播行
+      .inBlock1 {
+        padding: 25px 0;
+
+        .inJdt {
+          width: 702px;
+          height: 418px;
+
+          .focusBox {
+            position: relative;
+            width: 100%;
+            height: 418px;
+            overflow: hidden;
+
+            .el-carousel__container {
+              height: 418px;
+
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+        }
+
+        .inYwGwyNews {
+          width: 474px;
+          height: 418px;
+          overflow: hidden;
+
+          .slideTxtBox {
+            border-top: 2px solid #015293;
+
+            .hd {
+              height: 54px;
+              line-height: 54px;
+
+              .lmtit {
+                height: 45px;
+                line-height: 45px;
+                padding-top: 5px;
+                padding-bottom: 7px;
+                background: url(../assets/image/titbotbg.png) no-repeat left bottom;
+                font-size: 22px;
+                color: #015293;
+
+                a {
+                  float: right;
+                  font-size: 14px;
+                  cursor: pointer;
+                  color: #c1c1c1;
+                }
+              }
+            }
+
+            .bd {
+              padding-top: 15px;
+
+              .inTyList {
+                li {
+                  line-height: 26px;
+                  text-indent: 0;
+                  padding: 0 0 9px 0;
+                  padding: 0 0 9px 10px;
+                  background: url(../assets/image/listlibg.jpg) no-repeat left 12px;
+
+                  a {
+                    cursor: pointer;
+                    color: #333;
+                  }
+
+                  a:hover {
+                    color: #015293;
+                  }
+
+                  .date {
+                    color: #999;
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      // 标签行
+      .inYcxw {
+        background: url(../assets/image/ycxw_bg.jpg) no-repeat center;
+        height: 89px;
+        margin-bottom: 27px;
+      }
+
+      .intervalpic {
+        width: 100%;
+        margin-top: 20px;
+      }
+
+      // 内容
+      .inBlock1-1 {
+        margin-bottom: 27px;
+
+        .interval-words {
+          width: 100%;
+          height: 95px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 20px;
+          font-weight: 900;
+          font-size: 29px;
+          color: #fff;
+          background-color: #fce0e0;
+          background-image: linear-gradient(to right, yellow, red);
+        }
+
+        .lmtit {
+          height: 45px;
+          line-height: 45px;
+          padding-bottom: 7px;
+          background: url(../assets/image/titbotbg.png) no-repeat left bottom;
+          font-size: 22px;
+          color: #015293;
+
+          a {
+            float: right;
+            font-size: 14px;
+            cursor: pointer;
+            color: #c1c1c1;
+          }
+        }
+
+        li {
+          line-height: 40px;
+          background: url(../assets/image/listlibg.jpg) no-repeat left 18px;
+          text-indent: 10px;
+
+          a {
+            color: #333;
+            cursor: pointer;
+          }
+
+          a:hover {
+            color: #015293;
+          }
+
+          .date {
+            color: #999;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  // 外网
+  .inXglj {
+    border-top: 2px solid #015293;
+    margin-top: 28px;
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-top: 10px;
+
+    li {
+      float: left;
+      margin-right: 15px;
+      margin-left: 0;
+      margin-top: 12px;
+      line-height: 42px;
+
+      a {
+        transition: all 0.2s;
+        color: #333;
+
+        img {
+          vertical-align: middle;
+          width: 158px;
+          height: 75px;
+        }
+      }
+    }
+
+    li:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+// .lione:hover .tabone {
+//   display: block !important;
+// }
+// .lione:hover .tabtwo {
+//   display: none !important;
+// }
+// .litwo:hover .tabone {
+//   display: none !important;
+// }
+// .litwo:hover .tabtwo {
+//   display: block !important;
+// }
+.el-carousel__item h3 {
+  color: #475669;
+  font-size: 18px;
+  opacity: 0.75;
+  line-height: 300px;
+  margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+  background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n + 1) {
+  background-color: #d3dce6;
+}

@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.auto {
+  margin: 0 auto;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.cl {
+  clear: both;
+}
+
+.pb30 {
+  padding-bottom: 30px;
+}
+
+.bg015293 {
+  background: #015293;
+}
+
+.bg0053a7 {
+  background: #0053a7;
+}
+
+.bgf4f4f4 {
+  background: #f4f4f4;
+}
+
+.w1200 {
+  width: 1200px;
+}
+
+.w1240 {
+  width: 1240px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pdlr20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nopdlr20 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.w383 {
+  width: 383px;
+  max-height: 374px;
+}
+
+.ml25 {
+  margin-left: 25px;
+}
+
+.mt15 {
+  margin-top: 15px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt304 {
+  margin-top: 304px;
+}
+
+.disnone {
+  display: none;
+}
+
+.flexcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  text-align: center;
+}
+
+.pT130 {
+  padding-top: 150px;
+}
+
+.keyDateBg {
+  background: url(../assets/image/env_header.jpg) no-repeat center -42px;
+}

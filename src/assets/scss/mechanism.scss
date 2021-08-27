@@ -1,0 +1,63 @@
+.container {
+  background: url("../assets/image/bg.jpg");
+
+  .content {
+    background: #fff;
+
+    img {
+      width: 100%;
+    }
+
+    .content-left {
+      float: left;
+      width: 20%;
+      height: 100%;
+      color: #000;
+      font-size: 15px;
+      line-height: 30px;
+      padding: 40px 15px 20px;
+      border-right: 1px solid #eee;
+    }
+
+    .content-right {
+      width: 70%;
+      height: 100%;
+      font-size: 14px;
+      line-height: 30px;
+      color: #626262;
+      padding: 20px 35px;
+    }
+
+    .right-title {
+      width: 73px;
+      height: 38px;
+      display: block;
+      font-size: 18px;
+      transition: none;
+      color: #000;
+      margin: 10px;
+      background: url("../assets/image/lbtitbg.png") no-repeat center bottom;
+    }
+  }
+}
+
+
+.el-tabs--left .el-tabs__nav.is-left,
+.el-tabs--left .el-tabs__nav.is-right,
+.el-tabs--right .el-tabs__nav.is-left,
+.el-tabs--right .el-tabs__nav.is-right {
+  height: 700px;
+  overflow-y: scroll;
+  padding: 0 0 10px 0;
+}
+
+.el-tabs__content {
+  height: 700px !important;
+  overflow-y: scroll !important;
+  padding: 0 0 10px 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  /* Chrome Safari */
+}
